@@ -1,0 +1,29 @@
+public class fibo()
+{
+	
+integer a, b, var;
+a=0;
+b=1;
+var=1;
+
+	public void serie()
+	{
+		
+		System.Debug(a);
+		System.Debug(b);		
+
+		for(integer i = 0; i<20, i++)
+		{
+			System.Debug(var);
+			a = b;
+			b = var;
+			var = a+b;
+		
+		}
+	
+
+	}
+
+
+
+}
